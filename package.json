@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-messaging-script",
+  "version": "1.0.0",
+  "description": "LinkedIn Sales Navigator messaging automation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:sales": "USE_SALES_NAV=true node src/index.js",
+    "sales-nav": "USE_SALES_NAV=true node src/index.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "puppeteer": "^22.8.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
